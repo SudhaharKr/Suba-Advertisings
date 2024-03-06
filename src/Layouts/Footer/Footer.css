@@ -1,0 +1,8 @@
+.footer-page-container{
+    width: 1200px;
+    margin: auto;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+
+}

@@ -1,0 +1,123 @@
+.header-topbar-left-container {
+  /* background-color: red; */
+  /* width: 1356px; */
+  padding: 0.5rem 0;
+  align-items: center;
+  gap: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #e4e7e9;
+}
+
+.mail-container,
+.location-container {
+  display: flex;
+  /* gap: 1rem; */
+  align-items: center;
+  cursor: pointer;
+}
+.mailfilledicon,
+.mappinfilledicon {
+  margin: 0 0.6rem;
+  line-height: 13px;
+  color: var(--Logo-Color2);
+}
+
+.mail,
+.location {
+  font-family: Archivo, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 19.5px;
+}
+
+.header-topbar-right-container {
+  justify-content: end;
+  padding: 0 3rem;
+  font-family: Archivo, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 19.5px;
+}
+
+.left-container {
+  width: 600px;
+  padding: 0 3rem;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.faq-container {
+  order: 1; /* Adjust the order value as needed */
+  cursor: pointer;
+}
+
+.logoimage {
+  height: 100%;
+  display: flex;
+  /* padding: 0 3rem; */
+}
+.logo-image {
+  width: 140px;
+
+
+}
+
+
+
+.header-menu-container {
+  /* width: 1338px; */
+  display: flex;
+  padding: 1rem  3rem;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1.95px 1.95px 2.6px rgba(0, 0, 0, 0.15);
+  color: antiquewhite;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  gap: 3rem;
+  font-family: "poppins";
+  /* background-color: red; */
+  align-items: center;
+  /* justify-content: space-around; */
+  animation: nav-loader;
+}
+
+.menu a {
+  font-family: Archivo, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: black;
+  text-decoration: none;
+}
+.menu li {
+  margin: 2rem 0;
+  height: 12px;
+}
+
+.whatsapp-contact {
+ 
+
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+
+.whatsappicon{
+    color: var(--Logo-Color2);
+}
+
+.whatsapp-contact-no{
+    padding-left: 0.2rem;
+    color: var(--Logo-Color1);
+    font-family: Archivo, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
